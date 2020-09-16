@@ -34,7 +34,9 @@ end
 # Git doesn't know what to do in this case, so you'll have to
 # merge the two versions by hand.
 def clock_noise
-
+# <<<<<<< HEAD
+#   puts "tock"
+# =======
   puts "tick tock"
-
+# >>>>>>> c3009927b6d2b139e6227bc68e98066cf1d5d6a3
 end
